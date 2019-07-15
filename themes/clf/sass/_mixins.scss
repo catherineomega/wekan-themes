@@ -1,0 +1,11 @@
+@mixin card($background_color: $color_white) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $background_color;
+  background-clip: border-box;
+  border: 0 solid rgba(122,123,151,.3);
+  border-radius: .65rem;
+}

@@ -1,0 +1,28 @@
+body {
+  background: #002145; }
+
+.board-color-dark .ui-sortable,
+.board-color-dark .swimlane,
+.board-color-dark .swimlane > .swimlane-header-wrap,
+.board-color-dark .swimlane > .list.js-list,
+.board-color-dark .swimlane > .list-composer.js-list-composer,
+.board-color-dark .list-body,
+.board-color-dark .list,
+.board-color-dark .list-composer,
+.board-color-dark .sidebar-content,
+.board-color-dark .card-details {
+  background: #002145;
+  color: #fff; }
+
+.minicard-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(122, 123, 151, 0.3);
+  border-radius: .65rem; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  background: $color_blue;
+}
+
+.board-color-dark .ui-sortable,
+.board-color-dark .swimlane,
+.board-color-dark .swimlane > .swimlane-header-wrap,
+.board-color-dark .swimlane > .list.js-list,
+.board-color-dark .swimlane > .list-composer.js-list-composer,
+.board-color-dark .list-body,
+.board-color-dark .list,
+.board-color-dark .list-composer,
+.board-color-dark .sidebar-content,
+.board-color-dark .card-details {
+  background: $color_blue;
+  color: $color_white;
+}
+
+
+
+.minicard-wrapper {
+  @include card();
+}
